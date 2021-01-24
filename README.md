@@ -2,7 +2,7 @@
 
 A little experiment to see if it's possible to take [Typerighter](https://github.com/guardian/typerighter/pulls) to more places.
 
-Based on the excellent blog post describing the [Grammarly extension](https://www.grammarly.com/blog/engineering/making-grammarly-feel-native-on-every-website/).
+Based on the excellent blog post describing the [Grammarly extension](https://www.grammarly.com/blog/engineering/making-grammarly-feel-native-on-every-website/). Sincere thanks for a brilliant write-up!
 
 ## Available Scripts
 
