@@ -1,6 +1,6 @@
 # travel-typerighter
 
-A little experiment to see if it's possible to take Typerighter to more places.
+A little experiment to see if it's possible to take [Typerighter](https://github.com/guardian/typerighter/pulls) to more places.
 
 Based on the excellent blog post describing the [Grammarly extension](https://www.grammarly.com/blog/engineering/making-grammarly-feel-native-on-every-website/).
 
