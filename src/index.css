@@ -1,13 +1,53 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* set up the keyframes; remember to create prefixed keyframes too! */
+@keyframes nodeInserted {
+  from {
+    opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+.App {
+  background-color: steelblue;
+  padding: 100px;
+}
+
+.input-scroll-container {
+  border: 1px solid blue;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.input-container {
+  padding: 100px;
+  height: 1000px;
+}
+
+input[data-typerighter],
+textarea[data-typerighter] {
+  animation-duration: 0.001s;
+  animation-name: nodeInserted;
 }
